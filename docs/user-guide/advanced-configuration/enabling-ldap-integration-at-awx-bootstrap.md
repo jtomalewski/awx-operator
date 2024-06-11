@@ -51,7 +51,7 @@ AUTH_LDAP_TEAM_MAP = {
 }
 ```
 
-Create a ConfigMap with the content of the above Python file.
+Create a `ConfigMap` with the content of the above Python file.
 
 ```bash
 kubectl create configmap custom-ldap-settings \
@@ -69,7 +69,7 @@ spec:
 ```
 
 !!! note
-    If you have embedded some sensitive information like passwords in the Python file, you can create and pass a Secret instead of a ConfigMap.
+    If you have embedded some sensitive information like passwords in the Python file, you can create and pass a `Secret` instead of a `ConfigMap`.
 
     ```bash
     kubectl create secret generic custom-ldap-settings \
