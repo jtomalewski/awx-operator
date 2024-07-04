@@ -2,7 +2,7 @@
 apiVersion: awx.ansible.com/v1beta1 
 kind: AWX 
 metadata:   
- name: awx-demo 
+ name: awx-deploy 
 spec:   
   service_type: nodeport
   admin_user: admin
