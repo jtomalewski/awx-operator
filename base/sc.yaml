@@ -8,6 +8,6 @@ volumeBindingMode: WaitForFirstConsumer
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
-  name: awx-postgres-volume
+  name: awx-projects-volume
 provisioner: kubernetes.io/no-provisioner
 volumeBindingMode: WaitForFirstConsumer
