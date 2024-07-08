@@ -12,8 +12,8 @@ images:
     - name: quay.io/ansible/awx-operator     
       newTag: 2.19.0 
 
-	# Specify a custom namespace in which to install AWX 
-	namespace: awx
+# Specify a custom namespace in which to install AWX 
+namespace: awx
 
 secretGenerator:
   - name: awx-secret-tls
