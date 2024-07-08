@@ -21,7 +21,7 @@ spec:
       storage: 8Gi
 
   projects_persistence: true
-  projects_existing_claim: awx-projects-volume
+  projects_existing_claim: awx-projects-claim
 
   web_replicas: 1
   task_replicas: 1
